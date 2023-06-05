@@ -1,13 +1,12 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
 /**
  * Class PostWithMultipleSlugsAndCustomSlugKey
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  */
 class PostWithMultipleSlugsAndCustomSlugKey extends PostWithMultipleSlugsAndHelperTrait
 {
-
     protected $slugKeyName = 'dummy';
     
 }

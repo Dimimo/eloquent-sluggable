@@ -1,8 +1,8 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace Dimimo\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\Tests\Listeners\AbortSlugging;
-use Cviebrock\EloquentSluggable\Tests\Listeners\DoNotAbortSlugging;
-use Cviebrock\EloquentSluggable\Tests\Models\Post;
+use Dimimo\EloquentSluggable\Tests\Listeners\AbortSlugging;
+use Dimimo\EloquentSluggable\Tests\Listeners\DoNotAbortSlugging;
+use Dimimo\EloquentSluggable\Tests\Models\Post;
 use Illuminate\Support\Facades\Event;
 
 /**

@@ -1,11 +1,11 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace Dimimo\EloquentSluggable\Tests;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 /**
  * Class TestServiceProvider
  *
- * @package Cviebrock\EloquentSluggable
+ * @package Dimimo\EloquentSluggable
  */
 class TestServiceProvider extends BaseServiceProvider
 {

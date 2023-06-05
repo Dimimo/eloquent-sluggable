@@ -1,8 +1,8 @@
 <?php
 
-namespace Cviebrock\EloquentSluggable\Tests\Models;
+namespace Dimimo\EloquentSluggable\Tests\Models;
 
-use Cviebrock\EloquentSluggable\Tests\Classes\SluggableCustomMethod;
+use Dimimo\EloquentSluggable\Tests\Classes\SluggableCustomMethod;
 
 class PostWithCustomMethodArrayCall extends Post
 {

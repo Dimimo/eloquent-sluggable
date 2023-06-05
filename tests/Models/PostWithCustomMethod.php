@@ -1,12 +1,11 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
 use Illuminate\Support\Str;
-
 
 /**
  * Class PostWithCustomMethod
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  */
 class PostWithCustomMethod extends Post
 {

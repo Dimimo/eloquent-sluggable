@@ -1,13 +1,12 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
 /**
  * Class PostWithMultipleSources
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  */
 class PostWithMultipleSources extends Post
 {
-
     /**
      * Return the sluggable configuration array for this model.
      *

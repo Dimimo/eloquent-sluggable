@@ -1,9 +1,9 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace Dimimo\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\Tests\Models\Author;
-use Cviebrock\EloquentSluggable\Tests\Models\Post;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithFirstUniqueSuffix;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithUniqueSlugConstraints;
+use Dimimo\EloquentSluggable\Tests\Models\Author;
+use Dimimo\EloquentSluggable\Tests\Models\Post;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithFirstUniqueSuffix;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithUniqueSlugConstraints;
 
 /**
  * Class UniqueTests
@@ -12,7 +12,6 @@ use Cviebrock\EloquentSluggable\Tests\Models\PostWithUniqueSlugConstraints;
  */
 class UniqueTests extends TestCase
 {
-
     /**
      * Test uniqueness of generated slugs.
      */

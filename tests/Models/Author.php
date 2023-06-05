@@ -1,4 +1,4 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -7,10 +7,10 @@ use Illuminate\Database\Eloquent\Model;
  *
  * A test model used for the relationship tests.
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  *
  * @property integer id
- * @property string name
+ * @property string  name
  */
 class Author extends Model
 {

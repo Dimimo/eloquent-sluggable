@@ -1,11 +1,11 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
 /**
  * Class PostWithEmptySeparator
  *
  * A test model that uses an empty separator.
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  */
 class PostWithEmptySeparator extends Post
 {

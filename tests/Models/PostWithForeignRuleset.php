@@ -1,4 +1,4 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
 use Cocur\Slugify\Slugify;
 
@@ -7,7 +7,7 @@ use Cocur\Slugify\Slugify;
  *
  * A test model that customizes the Slugify engine with a foreign ruleset.
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  */
 class PostWithForeignRuleset extends Post
 {

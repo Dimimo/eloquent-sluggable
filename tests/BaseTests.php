@@ -1,29 +1,29 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace Dimimo\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\Tests\Models\Author;
-use Cviebrock\EloquentSluggable\Tests\Models\Post;
-use Cviebrock\EloquentSluggable\Tests\Models\PostNotSluggable;
-use Cviebrock\EloquentSluggable\Tests\Models\PostShortConfig;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomCallableMethod;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomEngine;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomEngine2;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomEngineOptions;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomMethod;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomMethodArrayCall;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomSeparator;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomSource;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithIdSource;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomSuffix;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithEmptySeparator;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithForeignRuleset;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithIdSourceOnSaved;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithMaxLength;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithMaxLengthSplitWords;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithMultipleSlugs;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithMultipleSources;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithNoSource;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithRelation;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithReservedSlug;
+use Dimimo\EloquentSluggable\Tests\Models\Author;
+use Dimimo\EloquentSluggable\Tests\Models\Post;
+use Dimimo\EloquentSluggable\Tests\Models\PostNotSluggable;
+use Dimimo\EloquentSluggable\Tests\Models\PostShortConfig;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithCustomCallableMethod;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithCustomEngine;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithCustomEngine2;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithCustomEngineOptions;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithCustomMethod;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithCustomMethodArrayCall;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithCustomSeparator;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithCustomSource;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithIdSource;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithCustomSuffix;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithEmptySeparator;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithForeignRuleset;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithIdSourceOnSaved;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithMaxLength;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithMaxLengthSplitWords;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithMultipleSlugs;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithMultipleSources;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithNoSource;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithRelation;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithReservedSlug;
 
 /**
  * Class BaseTests
@@ -32,7 +32,6 @@ use Cviebrock\EloquentSluggable\Tests\Models\PostWithReservedSlug;
  */
 class BaseTests extends TestCase
 {
-
     /**
      * Test basic slugging functionality.
      */

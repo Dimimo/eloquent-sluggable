@@ -1,14 +1,13 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
 use Cocur\Slugify\Slugify;
-
 
 /**
  * Class PostCustomEngine2
  *
  * A test model that customizes the Slugify engine with other custom rules.
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  */
 class PostWithCustomEngine2 extends Post
 {

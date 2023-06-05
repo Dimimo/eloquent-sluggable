@@ -1,6 +1,6 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace Dimimo\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\ServiceProvider;
+use Dimimo\EloquentSluggable\ServiceProvider;
 use Illuminate\Contracts\Events\Dispatcher;
 use Mockery;
 use Orchestra\Testbench\TestCase as Orchestra;

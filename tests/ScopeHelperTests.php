@@ -1,8 +1,8 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace Dimimo\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\Tests\Models\PostShortConfigWithScopeHelpers;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithMultipleSlugsAndCustomSlugKey;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithMultipleSlugsAndHelperTrait;
+use Dimimo\EloquentSluggable\Tests\Models\PostShortConfigWithScopeHelpers;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithMultipleSlugsAndCustomSlugKey;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithMultipleSlugsAndHelperTrait;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 /**

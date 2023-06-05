@@ -1,13 +1,12 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
 /**
  * Class PostWithFirstUniqueSuffix
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  */
 class PostWithFirstUniqueSuffix extends Post
 {
-
     /**
      * Return the sluggable configuration array for this model.
      *

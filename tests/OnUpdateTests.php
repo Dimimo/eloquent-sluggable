@@ -1,7 +1,7 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace Dimimo\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\Tests\Models\Post;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithOnUpdate;
+use Dimimo\EloquentSluggable\Tests\Models\Post;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithOnUpdate;
 
 /**
  * Class OnUpdateTests
@@ -10,7 +10,6 @@ use Cviebrock\EloquentSluggable\Tests\Models\PostWithOnUpdate;
  */
 class OnUpdateTests extends TestCase
 {
-
     /**
      * Test that the slug isn't regenerated if onUpdate is false.
      */

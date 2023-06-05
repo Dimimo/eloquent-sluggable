@@ -1,11 +1,11 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
-use Cviebrock\EloquentSluggable\SluggableScopeHelpers;
+use Dimimo\EloquentSluggable\SluggableScopeHelpers;
 
 /**
  * Class PostWithMultipleSlugsAndPrimary
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  */
 class PostWithMultipleSlugsAndHelperTrait extends PostWithMultipleSlugs
 {

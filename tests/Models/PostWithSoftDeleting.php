@@ -1,4 +1,4 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  *
  * A test model that uses the Sluggable package and uses Laravel's SoftDeleting trait.
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  */
 class PostWithSoftDeleting extends Post
 {

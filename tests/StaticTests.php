@@ -1,7 +1,7 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace Dimimo\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\Services\SlugService;
-use Cviebrock\EloquentSluggable\Tests\Models\Post;
+use Dimimo\EloquentSluggable\Services\SlugService;
+use Dimimo\EloquentSluggable\Tests\Models\Post;
 
 /**
  * Class StaticTests
@@ -10,7 +10,6 @@ use Cviebrock\EloquentSluggable\Tests\Models\Post;
  */
 class StaticTests extends TestCase
 {
-
     /**
      * Test that we can generate a slug statically.
      */

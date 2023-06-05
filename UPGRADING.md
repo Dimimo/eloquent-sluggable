@@ -19,23 +19,23 @@
 The configuration array has changed slightly between versions:
 
 * In your `config/sluggable.php` configuration file, remove the `save_to`  
-  parameter as it is no longer used.  Rename `build_from` to `source`, and convert the other
+  parameter as it is no longer used. Rename `build_from` to `source`, and convert the other
   parameters from snake_case to lower camelCase (e.g. `include_trashed` -> `includeTrashed`).
-* Your models no longer need to implement `Cviebrock\EloquentSluggable\SluggableInterface`.
-* Your models should now use the trait `Cviebrock\EloquentSluggable\Sluggable` instead of 
-  `Cviebrock\EloquentSluggable\SluggableTrait`, which no longer exists.
-* Per-model configuration has been moved from a protect property into a protected method, and 
+* Your models no longer need to implement `Dimimo\EloquentSluggable\SluggableInterface`.
+* Your models should now use the trait `Dimimo\EloquentSluggable\Sluggable` instead of
+  `Dimimo\EloquentSluggable\SluggableTrait`, which no longer exists.
+* Per-model configuration has been moved from a protect property into a protected method, and
   the configuration array is now keyed with the attribute field where the slug is stored (i.e. the
   previous value of the `save_to` configuration.
 * The service provider name has changed, so update the entry in your project's `config/app.php`
-  from `Cviebrock\EloquentSluggable\SluggableServiceProvider::class` to
-  `Cviebrock\EloquentSluggable\ServiceProvider::class`.
+  from `Dimimo\EloquentSluggable\SluggableServiceProvider::class` to
+  `Dimimo\EloquentSluggable\ServiceProvider::class`.
   
 #### Version 3.x Configuration Example:
-  
+
 ```php
-use Cviebrock\EloquentSluggable\SluggableInterface;
-use Cviebrock\EloquentSluggable\SluggableTrait;
+use Dimimo\EloquentSluggable\SluggableInterface;
+use Dimimo\EloquentSluggable\SluggableTrait;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model implements SluggableInterface
@@ -59,7 +59,7 @@ class Post extends Model implements SluggableInterface
 #### Converted Version 4.x Example:
 
 ```php
-use Cviebrock\EloquentSluggable\Sluggable;
+use Dimimo\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model

@@ -1,13 +1,13 @@
-<?php namespace Cviebrock\EloquentSluggable;
+<?php namespace Dimimo\EloquentSluggable;
 
-use Cviebrock\EloquentSluggable\Services\SlugService;
+use Dimimo\EloquentSluggable\Services\SlugService;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class SluggableObserver
  *
- * @package Cviebrock\EloquentSluggable
+ * @package Dimimo\EloquentSluggable
  */
 class SluggableObserver
 {
@@ -17,9 +17,8 @@ class SluggableObserver
 
     /** @var string */
     public const SAVED = 'saved';
-
     /**
-     * @var \Cviebrock\EloquentSluggable\Services\SlugService
+     * @var \Dimimo\EloquentSluggable\Services\SlugService
      */
     private $slugService;
 
@@ -31,8 +30,8 @@ class SluggableObserver
     /**
      * SluggableObserver constructor.
      *
-     * @param \Cviebrock\EloquentSluggable\Services\SlugService $slugService
-     * @param \Illuminate\Contracts\Events\Dispatcher $events
+     * @param \Dimimo\EloquentSluggable\Services\SlugService $slugService
+     * @param \Illuminate\Contracts\Events\Dispatcher        $events
      */
     public function __construct(SlugService $slugService, Dispatcher $events)
     {

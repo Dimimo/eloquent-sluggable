@@ -1,4 +1,4 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * A test model that doesn't use the Sluggable package.
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  */
 class PostNotSluggable extends Model
 {

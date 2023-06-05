@@ -128,7 +128,7 @@ the _master_ branch by default, which might not be what you want).
 2. Optionally, publish the configuration file if you want to change any defaults:
 
     ```sh
-    php artisan vendor:publish --provider="Cviebrock\EloquentSluggable\ServiceProvider"
+    php artisan vendor:publish --provider="Dimimo\EloquentSluggable\ServiceProvider"
     ```
 
 
@@ -139,7 +139,7 @@ that you need to define.  This is where any model-specific configuration is set
 (see [Configuration](#configuration) below for details):
 
 ```php
-use Cviebrock\EloquentSluggable\Sluggable;
+use Dimimo\EloquentSluggable\Sluggable;
 
 class Post extends Model
 {
@@ -213,17 +213,17 @@ $newPost = $post->replicate();
 
 (The above values would be subject to any unique or other checks as well.)
 
-## The SlugService Class 
+## The SlugService Class
 
 All the logic to generate slugs is handled
-by the `\Cviebrock\EloquentSluggable\Services\SlugService` class.
+by the `\Dimimo\EloquentSluggable\Services\SlugService` class.
 
-Generally, you don't need to access this class directly, although there is one 
+Generally, you don't need to access this class directly, although there is one
 static method that can be used to generate a slug for a given string without actually
 creating or saving an associated model.
 
 ```php
-use \Cviebrock\EloquentSluggable\Services\SlugService;
+use \Dimimo\EloquentSluggable\Services\SlugService;
 
 $slug = SlugService::createSlug(Post::class, 'slug', 'My First Post');
 ```

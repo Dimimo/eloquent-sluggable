@@ -1,13 +1,12 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
 /**
  * Class PostWithMaxLength
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  */
 class PostWithMaxLengthSplitWords extends Post
 {
-
     /**
      * Return the sluggable configuration array for this model.
      *

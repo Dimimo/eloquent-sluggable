@@ -1,20 +1,23 @@
 {
-    "name": "cviebrock/eloquent-sluggable",
+    "name": "dimimo/eloquent-sluggable",
     "description": "Easy creation of slugs for your Eloquent models in Laravel",
     "keywords": [
         "eloquent-sluggable",
         "eloquent",
         "sluggable",
         "laravel",
-        "lumen",
         "slug"
     ],
-    "homepage": "https://github.com/cviebrock/eloquent-sluggable",
+    "homepage": "https://github.com/dimimo/eloquent-sluggable",
     "license": "MIT",
     "authors": [
         {
             "name": "Colin Viebrock",
             "email": "colin@viebrock.ca"
+        },
+        {
+            "name": "Dimitri Mostrey",
+            "email": "dmostrey@yahoo.com"
         }
     ],
     "require": {
@@ -27,16 +30,16 @@
     "require-dev": {
         "mockery/mockery": "^1.4.4",
         "orchestra/testbench": "^8.0",
-        "pestphp/pest": "2.x-dev"
+        "pestphp/pest": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "Cviebrock\\EloquentSluggable\\": "src"
+            "Dimimo\\EloquentSluggable\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Cviebrock\\EloquentSluggable\\Tests\\": "tests"
+            "Dimimo\\EloquentSluggable\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -52,7 +55,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cviebrock\\EloquentSluggable\\ServiceProvider"
+                "Dimimo\\EloquentSluggable\\ServiceProvider"
             ]
         }
     },

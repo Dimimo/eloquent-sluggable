@@ -1,4 +1,4 @@
-<?php namespace Cviebrock\EloquentSluggable\Services;
+<?php namespace Dimimo\EloquentSluggable\Services;
 
 use Cocur\Slugify\Slugify;
 use Illuminate\Database\Eloquent\Model;
@@ -8,14 +8,13 @@ use Illuminate\Support\Collection;
 /**
  * Class SlugService
  *
- * @package Cviebrock\EloquentSluggable\Services
+ * @package Dimimo\EloquentSluggable\Services
  */
 class SlugService
 {
-
     /**
      * @var \Illuminate\Database\Eloquent\Model
-     * @var \Cviebrock\EloquentSluggable\Sluggable
+     * @var \Dimimo\EloquentSluggable\Sluggable
      */
     protected $model;
 

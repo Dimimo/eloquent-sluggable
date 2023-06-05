@@ -1,6 +1,6 @@
 <?php
 
-namespace Cviebrock\EloquentSluggable\Tests\Classes;
+namespace Dimimo\EloquentSluggable\Tests\Classes;
 
 use Illuminate\Support\Str;
 

@@ -1,14 +1,14 @@
-<?php namespace Cviebrock\EloquentSluggable;
+<?php namespace Dimimo\EloquentSluggable;
 
 use Cocur\Slugify\Slugify;
-use Cviebrock\EloquentSluggable\Services\SlugService;
+use Dimimo\EloquentSluggable\Services\SlugService;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Sluggable
  *
- * @package Cviebrock\EloquentSluggable
+ * @package Dimimo\EloquentSluggable
  */
 trait Sluggable
 {

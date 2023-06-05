@@ -1,4 +1,4 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Listeners;
+<?php namespace Dimimo\EloquentSluggable\Tests\Listeners;
 
 use Illuminate\Database\Eloquent\Model;
 

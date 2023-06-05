@@ -1,6 +1,6 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
-use Cviebrock\EloquentSluggable\SluggableObserver;
+use Dimimo\EloquentSluggable\SluggableObserver;
 
 /**
  * Class PostWithIdSourceOnSaved
@@ -8,7 +8,7 @@ use Cviebrock\EloquentSluggable\SluggableObserver;
  * A test model that uses the model's ID in the slug source
  * and the SluggableObserver::SAVED event listener.
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  */
 class PostWithIdSourceOnSaved extends Post
 {

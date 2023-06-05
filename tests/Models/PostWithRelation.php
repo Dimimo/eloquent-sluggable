@@ -1,4 +1,4 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace Dimimo\EloquentSluggable\Tests\Models;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  *
  * A test model used for the relationship tests.
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package Dimimo\EloquentSluggable\Tests\Models
  *
- * @property \Cviebrock\EloquentSluggable\Tests\Models\Author author
+ * @property \Dimimo\EloquentSluggable\Tests\Models\Author author
  */
 class PostWithRelation extends Post
 {

@@ -1,4 +1,4 @@
-<?php namespace Cviebrock\EloquentSluggable;
+<?php namespace Dimimo\EloquentSluggable;
 
 use Illuminate\Database\Eloquent\Builder;
 
@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
  * Helper trait for defining the primary slug of a model
  * and providing useful scopes and query methods.
  *
- * @package Cviebrock\EloquentSluggable
+ * @package Dimimo\EloquentSluggable
  */
 trait SluggableScopeHelpers
 {

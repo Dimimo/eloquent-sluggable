@@ -1,8 +1,8 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace Dimimo\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithIncludeTrashed;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithSoftDeleting;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithSoftDeletingIncludeTrashed;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithIncludeTrashed;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithSoftDeleting;
+use Dimimo\EloquentSluggable\Tests\Models\PostWithSoftDeletingIncludeTrashed;
 
 /**
  * Class SoftDeleteTests
@@ -11,7 +11,6 @@ use Cviebrock\EloquentSluggable\Tests\Models\PostWithSoftDeletingIncludeTrashed;
  */
 class SoftDeleteTests extends TestCase
 {
-
     /**
      * Test uniqueness with soft deletes when we ignore trashed models.
      */
